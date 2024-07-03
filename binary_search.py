@@ -22,5 +22,5 @@ def binary_search(lista: List[int], item: int) -> Optional[int]:
     
     return # item not found
 
-print(binary_search([l for l in range(1, 100000)], 52123)) # example
+print(binary_search([l for l in range(0, 100000)], 52123)) # example
 
